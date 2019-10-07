@@ -1,0 +1,498 @@
+body {color: #333333;}
+body {
+    font-family: sans-serif;
+}
+
+/*ヘッダー*/
+.headerimages::after {
+    clear: both;
+    content: "";
+    display: block;
+    margin-bottom: 50px;
+}
+.headerimageA img {
+    margin-left: 30px;
+    float: left;
+}
+.headerimageB img {
+    float: left;
+    margin-left: 1120px;
+    margin-top: 10px;
+}
+.headerimageC img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.headerimageD img{
+    float: left;
+    margin-left: 30px;
+}
+.topic p {
+    color: #999;
+    padding: 0 0 10px 215px;
+    font-size: 12px;
+}
+a { text-decoration: none;}
+
+.topic p a:visited {
+    color: #999;
+}
+.ontext p {
+    font-size: 18px;
+    margin: 0;
+}
+.ontext h1 {
+    font-size: 26px;
+    margin-top: 25px;
+}
+.ontext {
+    color: #fff;
+    width: 500px;
+    position: absolute;
+    top: 38px;
+    left: 215px;
+}
+.topimage {
+    position: relative;
+}
+.topimage img {vertical-align: bottom;}
+
+.sns {
+    clear: both;
+    content: "";
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.snstext {
+    float: left;
+    font-size: 12px;
+    margin-left: 950px;
+    margin-right: 10px;
+}
+.facebook {
+    float: left;
+}
+.twitter {
+    float: left;
+    margin-top: 3px;
+}
+.in {
+    float: left;
+    margin-top: 2px;
+}
+
+/*pagebody*/
+.indentimage {
+    float: left;
+    margin-left: 320px;
+}
+.indentext {
+    float: left;
+}
+.firsttext {
+    clear: both;
+    content: "";
+    display: block;
+}
+.firsttext h1 {
+    font-size: 20px;
+    width: 800px;
+    margin-bottom: 35px;
+    margin: 30px auto;
+    padding-top: 5px;
+}
+.firsttext p {
+    font-size: 16px;
+    line-height: 1.875;
+    width: 800px;
+    margin: 0 auto 30px;
+}
+.mainimage img {
+    margin: 0 auto;
+    display: block;
+}
+
+/*pdf*/
+.pdf p {
+    color: #fff;
+    background-color: #005bac;
+    border: solid 1px #005bac;
+    width: 280px;
+    margin: 20px auto;
+    padding: 15px 5px;
+    text-align: center;
+}
+.pdf a {
+    text-decoration: none;
+    display: block;
+}
+.pdf a:hover {
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+/*両サイド*/
+.base {
+    clear: both;
+    content: "";
+    display: block;
+    margin: 80px 320px 0;
+}
+.back p {
+    text-align: left;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.next p {
+    text-align: right;
+}
+.base a {
+    color: #0c419a;
+    text-decoration: none;
+}
+.base a:hover {text-decoration: underline;}
+
+/*6ブロ*/
+.masstext {
+    font-weight: bold;
+    padding: 10px 0 5px 20px;
+}
+.mass {
+    background-color: #deecf8;
+    width: 800px;
+    height: 260px;
+    margin: 50px auto;
+}
+.mass a {
+    color: #0c419a;
+    text-decoration: none;
+    display: block;
+    transition: 0.6s;
+}
+.allblock a:hover {
+    background-color: #f4f4f4;
+}
+.mass:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.a-block, 
+.b-block, 
+.c-block, 
+.d-block,
+.e-block,
+.f-block {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: solid #ccc;
+    border-width: thin;
+}
+.a-block a {padding: 10px 25px;}
+.b-block a {padding: 10px 15px;}
+.c-block a {padding: 10px 45px;}
+.d-block a {padding: 1px 48px;}
+.e-block a {padding: 1px 50px;}
+.f-block a {padding: 1px 5px;}
+
+.middlesns {
+    clear: both;
+    content: "";
+    display: block;
+    margin-bottom: 140px;
+}
+.subimage {
+    float: right;
+    margin: 10px 300px 100px;
+}
+.bottomlist {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/*リスト*/
+.bottomlist h1 {
+    border-top: solid 2px #333333;
+    border-bottom: dotted 1px #999999;
+    margin: 0 220px;
+    padding: 30px 0;
+    font-size: 20px;
+}
+.listheadA {
+    margin-left: 220px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.listgroupA {
+    list-style: none;
+    margin-left: 170px;
+    margin-right: 20px;
+    width: 210px;
+    float: left;
+}
+.listgroup li {
+    padding: 15px;
+    font-size: 14px;
+    color: #0c419a;
+    list-style: none;
+}
+
+a li:hover {text-decoration: underline;}
+
+.listgroupB {float: left;}
+
+.listgroupC {
+    float: left;
+    padding-left: 40px;
+    margin-left: 70px;
+}
+
+.listgroupD {float: left;}
+
+.listgroupD li {padding-right: 40px;}
+
+.listheadB {
+    clear: both;
+    content: "";
+    display: block;
+    border-top: 1px dotted #999999;
+    margin: 0 220px;
+    padding: 30px 0 0;
+    font-size: 16px;
+}
+.listgroupE {
+    float: left;
+    margin-left: 170px;
+    margin-right: 20px;
+    width: 230px;
+}
+.listgroupF {
+    float: left;
+    padding-left: 20px;
+}
+.listgroupG,
+.listgroupH {float: left;}
+
+.listheadC {
+    clear: both;
+    content: "";
+    display: block;
+    border-top: 1px dotted #999999;
+    margin: 0 220px;
+    padding: 30px 0 0;
+    font-size: 16px;
+}
+
+.listgroupI {
+    float: left;
+    margin-left: 170px;
+    margin-right: 20px;
+    width: 210px;
+}
+
+.listgroupJ {float: left;}
+
+.listgroupK {
+    float: left;
+    margin-left: 140px;
+}
+.listgroupL {
+    float: left;
+    margin-left: 110px;
+}
+.listheadD {
+    clear: both;
+    content: "";
+    display: block;
+    border-top: 1px dotted #999999;
+    margin: 0 220px;
+    padding: 30px 0 0;
+    font-size: 16px;
+}
+.listgroupM {
+    float: left;
+    margin-left: 170px;
+    margin-right: 20px;
+    width: 210px;
+}
+
+.listgroupN {float: left;}
+
+.listgroupO {
+    float: left;
+    margin-left: 45px;
+}
+.backb p  {
+    clear: both;
+    content: "";
+    display: block;
+    border-top: 1px dotted #999999;
+    margin: 0 0 0 220px;
+    padding: 50px 0 70px;
+    font-size: 16px;
+    color: #0c419a;
+    width: 1000px;
+}
+.backb a {color: #0c419a}
+
+.backb a:hover{
+    text-decoration: underline;
+    color: #0c419a;
+}
+.bottomsns {
+    border: solid 2px #999999;
+}
+.bottomsns::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.bottomsnstext {
+    float: left;
+    width: 130px;
+    margin: 20px 0 20px 580px;
+    color: #005bac;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottomsnsfacebook {margin: 0;}
+.bottomsnsfacebook a {
+    display: block;
+    padding: 15px;
+    padding-top: 25px;
+}
+.bottomsnsfacebook {float: left;}
+
+.bottomsnstwitter {
+    float: left;
+    padding-top: 28px;
+}
+.bottomsnsin {
+    float: left;
+    padding: 27px 0 0 10px;
+}
+/*下部リスト*/
+.footlistA {
+    height: 280px;
+    margin-left: 230px;
+    margin-top: 50px;
+    float: left;
+}
+.footlistE {
+    height: 80px;
+    margin-left: 230px;
+    margin-top: 50px;
+    float: left;
+}
+.footlisttittleA,
+.footlisttittleB, 
+.footlisttittleC,
+.footlisttittleD,
+.footlisttittleE,
+.footlisttittleF,
+.footlisttittleG,
+.footlisttittleH {
+    border-top: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;
+    width: 230px;
+    margin-top: 0px;
+}
+.footlisttittleA a,
+.footlisttittleB a,
+.footlisttittleC a,
+.footlisttittleD a, 
+.footlisttittleE a,
+.footlisttittleF a,
+.footlisttittleG a,
+.footlisttittleH a {
+    font-size: 8px;
+    color: #6D6D6D;
+}
+.footlistB,
+.footlistC, 
+.footlistD {
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+}
+.footlistF,
+.footlistG,
+.footlistH {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+}
+.side ul li a {
+    font-size: 14px;
+    color: #6D6D6D;
+}
+.footerlist a:hover {
+    text-decoration: underline;
+}
+.footerlist ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footerlist ul li {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.sideA::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+/*フッター*/
+#sitefotter {
+    float: left;
+    clear: both;
+    content: "";
+    display: block;
+}
+#fotternavi ul {
+    list-style: none;
+    margin: 40px 0 20px 170px;
+}
+#fotternavi li  {
+    text-decoration: none;
+    font-size: 14px;
+    border-left: solid 1px #666666;
+    padding: 0 15px;
+    text-align: center;
+    float: left;
+}    
+#fotternavi ul :first-child {
+    border-left: none;
+}
+#fotternavi a { 
+    color: #999;
+    padding-bottom: 1px;}
+
+#fotternavi ul li a:hover { 
+    text-decoration: underline;}
+
+#copyright {
+    clear: both;
+    content: "";
+    display: block;
+    font-size: 10px;
+    float: left;
+    margin: 20px 0 150px 230px;
+}
+.pagetop {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+p.pagetop {
+    margin: 0;
+}
